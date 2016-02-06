@@ -97,7 +97,7 @@ public class Toolbox {
              * regex to get pid out of ps line, example:
              * 
              * <pre>
-             *  root    24736    1   12140  584   ffffffff 40010d14 S /data/data/org.adaway/files/blank_webserver
+             *  root    24736    1   12140  584   ffffffff 40010d14 S /data/data/sssemil.com.hostsaway/files/blank_webserver
              * ^\\S \\s ([0-9]+)                          .*                                      processName    $
              * </pre>
              */
@@ -458,7 +458,7 @@ public class Toolbox {
      * or cat.
      * 
      * @param source
-     *            example: /data/data/org.adaway/files/hosts
+     *            example: /data/data/sssemil.com.hostsaway/files/hosts
      * @param destination
      *            example: /system/etc/hosts
      * @param remountAsRw

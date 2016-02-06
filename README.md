@@ -1,12 +1,18 @@
-# AdAway
+# HostsAway
 
-AdAway is an open source ad blocker for Android using the hosts file. 
+HostsAway is an open source web sites blocker for Android using the hosts file(based on AdAway).
+
+Here are some interesting sources for hosts:
+http://winhelp2002.mvps.org/hosts.txt
+http://hosts-file.net/ad_servers.txt
+http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+https://adaway.org/hosts.txt
 
 For more information visit http://adaway.org
 
 ## Authors
 
-AdAway is currently maintained by 0-kaladin and Dāvis Mošenkovs.
+HostsAway is currently maintained by 0-kaladin and Dāvis Mošenkovs.
 The original author is Dominik Schürmann.
 
 # Build with Gradle
@@ -14,7 +20,7 @@ The original author is Dominik Schürmann.
 ## Build Executables
 
 1. Have NDK directory in your PATH (http://developer.android.com/tools/sdk/ndk/index.html)
-2. Change to "AdAway" directory with ``cd AdAway``
+2. Change to "HostsAway" directory with ``cd HostsAway``
 3. Execute ``ndk-build`` to compile native binaries.
 
 ## Build APK
@@ -27,7 +33,7 @@ The original author is Dominik Schürmann.
 
 # Contribute
 
-Fork AdAway and do a Pull Request. I will merge your changes back into the main project.
+Fork HostsAway and do a Pull Request. I will merge your changes back into the main project.
 
 ## Development
 
@@ -67,7 +73,7 @@ See http://source.android.com/source/code-style.html
 See http://www.androidpolice.com/2009/11/04/auto-formatting-android-xml-files-with-eclipse/
 
 
-# AdAway/jni
+# HostsAway/jni
 
 Forked from the following sources and slightly modified to compile!
 
@@ -80,27 +86,27 @@ Forked from the following sources and slightly modified to compile!
 Please review the following commits for the changes made to the sources above
 in order for them to compile in this project:
 
-* Commit: https://github.com/Free-Software-for-Android/AdAway/commit/1f4ccb3cec3758757341ad90813506fc2a8fdf7b
-* Commit: https://github.com/Free-Software-for-Android/AdAway/commit/289df896c0ac4f96bd862e8a5054f1011ec07cac
-* Commit: https://github.com/Free-Software-for-Android/AdAway/commit/08da0745b0732b94221c0f5746160fef8126fd99
+* Commit: https://github.com/Free-Software-for-Android/HostsAway/commit/1f4ccb3cec3758757341ad90813506fc2a8fdf7b
+* Commit: https://github.com/Free-Software-for-Android/HostsAway/commit/289df896c0ac4f96bd862e8a5054f1011ec07cac
+* Commit: https://github.com/Free-Software-for-Android/HostsAway/commit/08da0745b0732b94221c0f5746160fef8126fd99
 
 # Licenses
-AdAway is licensed under the GPLv3+.  
+HostsAway is licensed under the GPLv3+.
 The file LICENSE includes the full license text.
 
 ## Details
-AdAway is free software: you can redistribute it and/or modify
+HostsAway is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-AdAway is distributed in the hope that it will be useful,
+HostsAway is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with AdAway.  If not, see <http://www.gnu.org/licenses/>.
+along with HostsAway.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Libraries
 * ActionBarSherlock  
@@ -143,7 +149,7 @@ along with AdAway.  If not, see <http://www.gnu.org/licenses/>.
   GPLv3
 
 * icon.svg, banner.svg  
-  AdAway by Dominik Schürmann  
+  HostsAway by Dominik Schürmann
   New version by Alin Ţoţea-Radu  
   GPLv3
 

@@ -1,4 +1,4 @@
-include ':AdAway'
+include ':HostsAway'
 include ':libraries:Donations'
 include ':libraries:actionbarsherlock'
 include ':libraries:HtmlTextView'
